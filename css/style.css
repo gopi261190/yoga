@@ -1,0 +1,598 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 100%;
+    background-color: #6c9894;
+    padding: 5% 1%;
+    color: #fff;
+    text-align: center;
+}
+
+/* header-start */
+
+.container {
+    width: 100%;
+    background-color: #f4f9f4;
+}
+
+/* navigation-start */
+
+.navigation {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #e2ede8;
+}
+
+ul {
+    padding-top: 13px;
+}
+
+.navigation li {
+    padding: 0px 35px;
+    list-style: none;
+    font-weight: 900;
+    color: #7d8382;
+    font-size: 1.1rem;
+}
+
+.toggle {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 10px 5px 0px 0px;
+}
+
+.toggle .fa {
+    font-size: 35px;
+    color: #7d8382;
+}
+
+/* navigation-end */
+
+/* banner-start */
+
+.banner {
+    padding: 2% 0%;
+}
+
+.left {
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+.banner-shape {
+    width: 100%;
+    padding: 2%;
+}
+
+.banner-image {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+}
+
+.right {
+    width: 50%;
+    align-self: center;
+    color: #6c9894;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.right h1 {
+    font-size: 6rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.right p {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.btn {
+    width: 135px;
+    padding: 5px 0px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #6c9894;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 3px;
+}
+
+/* banner-end */
+
+/* header-end */
+
+/* three-section-start */
+
+.three-section h1 {
+    font-size: 4rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.text {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.main-box {
+    width: 31%;
+}
+
+.three-section .box {
+    position: relative;
+    display: flex;
+}
+
+.body-shape {
+    width: 100%;
+}
+
+.three-image {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+}
+
+.main-box h2 {
+    font-size: 2.5rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.main-box p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+/* three-section-end */
+
+/* full-quote-start */
+
+.full-quote {
+    text-align: center;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #6c9894;
+    padding: 5% 0%;
+}
+
+.three-box {
+    background-image: url("../image/back.png");
+}
+
+.full-quote h1 {
+    font-size: 4rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.text {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.full-quote .box {
+    width: 23%;
+    margin: 100px 0px;
+    padding: 80px 0px;
+    border-radius: 100%;
+    border: 5px solid #6c9894;
+}
+
+.full-quote .full {
+    justify-content: space-around;
+}
+
+/* full-quote-end */
+
+/* two-box-start */
+
+.two-box {
+    width: 50%;
+    color: #fff;
+}
+
+.center-text {
+    background-color: #6c9894;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.center-text h1 {
+    font-size: 4rem;
+    font-family: 'Baloo 2', cursive;
+    line-height: 70px;
+}
+
+.center-text p {
+    font-size: 1.2rem;
+    padding: 10px 0px 30px 0px;
+    line-height: 25px;
+}
+
+.btn1 {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    color: #6c9894;
+    font-weight: 800;
+}
+
+.two-img {
+    width: 100%;
+}
+
+/* two-box-again-start */
+
+.two-section-again {
+    margin: 5% 0%;
+}
+
+.space {
+    padding: 0% 10%;
+}
+
+.center-1 {
+    background-color: #fff;
+    color: #6c9894;
+}
+
+.btn2 {
+    background-color: #6c9894;
+    color: #fff;
+}
+
+/* price-section-start */
+
+.pricing {
+    justify-content: space-evenly;
+}
+
+.pricing .box {
+    width: 26%;
+    color: #6c9894;
+    background-color: #fff;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.box h2 {
+    line-height: 45px;
+    font-size: 2.5rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.pricing .box p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.exe {
+    font-size: 5rem;
+    padding: 20px 0px;
+}
+
+.btn3 {
+    height: 42px;
+    border: none;
+    margin-top: 30px;
+}
+
+/* one-section-start */
+
+.main-box1 {
+    width: 100%;
+}
+
+.box11 {
+    width: 35%;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+
+.one-section {
+    background-image: url("../image/back-again.png");
+    position: relative;
+}
+
+.one-img {
+    width: 100%;
+}
+
+.one-img1 {
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 66%;
+}
+
+.one {
+    font-size: 1.9rem;
+    line-height: 35px;
+}
+
+.one-section h2 {
+    font-size: 2.3rem;
+    font-family: 'Baloo 2', cursive;
+    padding-top: 20px;
+}
+
+/* update-section-start */
+
+.update {
+    padding: 10% 0%;
+}
+
+.update h1 {
+    font-size: 4rem;
+    font-family: 'Baloo 2', cursive;
+    padding-bottom: 20px;
+}
+
+.email {
+    width: 45%;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+}
+
+.sub {
+    height: 60px;
+    color: #6c9894;
+    border-radius: 30px;
+    margin-left: -60px;
+    position: relative;
+    top: 2px;
+    background-color: #f4f9f4;
+    font-size: 1.2rem;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 50px;
+    font-size: 1.4rem;
+    opacity: .3;
+}
+
+/* footer-section-start */
+
+footer {
+    color: #6c9894;
+    padding: 5% 1%;
+}
+
+.box1 {
+    width: 40%;
+}
+
+.box1 h2 {
+    font-size: 2.2rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+footer .box h2 {
+    font-size: 2.2rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+.box1 p, .box p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+footer .box {
+    width: 15%;
+}
+
+.social {
+    background-color: #6c9894;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.social1 {
+    padding: 5px 9px;
+    margin-right: 10px;
+}
+
+/* media-query */
+
+@media only screen and (max-width:985px) {
+    .main-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    .box {
+        width: 50%;
+    }
+    .banner {
+        padding: 5% 0%;
+    }
+}
+
+@media only screen and (max-width:885px) {
+    .box1 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    footer .box {
+        width: 25%;
+    }
+    .full-quote .box {
+        width: 30%;
+    }
+    .right h1 {
+        line-height: 90PX;
+        padding-bottom: 30PX;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navigation ul {
+        display: none;
+        position: absolute;
+        top: 50px;
+        padding-left: 10px;
+    }
+    .navigation li {
+        padding: 0px 60px 0px 0px;
+    }
+    .toggle {
+        display: block;
+    }
+    .logo {
+        width: 60px;
+    }
+    .left, .right {
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .three-section .box {
+        width: 70%;
+        /* padding: 40px 0px; */
+    }
+    .pricing .box {
+        width: 55%;
+        /* padding: 40px 0px; */
+    }
+    .btn3 {
+        width: 150px;
+    }
+    .full {
+        width: 50%;
+    }
+    .full .box {
+        width: 100%;
+    }
+    .two-box {
+        width: 80%;
+    }
+    .two-section, .two-section-again {
+        justify-content: center;
+    }
+    .center-text {
+        text-align: center;
+        margin: 8% 0%;
+    }
+    .btn, .btn1, .btn2, .btn3 {
+        align-self: center;
+    }
+    .text {
+        width: 80%;
+    }
+    .box11 {
+        width: 70%;
+    }
+    .full-quote .box {
+        margin: 50px 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .right h1 {
+        font-size: 5rem;
+    }
+    .center-text h1, .full-quote h1, .three-section h1, .update h1 {
+        font-size: 3.5rem;
+        line-height: 55px;
+    }
+    .pricing .box {
+        width: 80%;
+    }
+    .email {
+        width: 95%;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .sub {
+        width: 150px;
+        margin-left: 0;
+        height: 45px;
+    }
+    footer .box {
+        width: 100%;
+        text-align: left;
+        padding: 25px 0px;
+        margin-left: 10%;
+    }
+    .box11 {
+        width: 90%;
+    }
+    .three-section .box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .navigation li {
+        padding: 10px 25px 0px 0px;
+    }
+    .left {
+        margin-top: 10%;
+    }
+    .full-quote .full {
+        width: 70%;
+    }
+    .two-box {
+        width: 100%;
+    }
+    .text {
+        width: 90%;
+    }
+}
